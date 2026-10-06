@@ -30,6 +30,7 @@ Registra los roles externos que participan en las funciones representadas. Un ac
 | --- | --- |
 | Usuario | Persona que interactúa con el proyecto simbiosis |
 | Usuario registrado | Persona con cuenta registrada en el proyecto simbiosis |
+| Coordinador | Gestionar las cuentas de los usuarios |
 
 Mantén los mismos nombres en las tablas, los diagramas y las descripciones.
 
@@ -42,6 +43,7 @@ Registra los casos que aparecen en el modelo. Asigna a cada caso un identificado
 | Identificador | Nombre | Objetivo | Participantes |
 | --- | --- | --- | --- |
 | UC-05 | Gestionar perfil | Gestionar los datos personales | Actor principal: Usuario registrado (No se identifica actor de apoyo) |
+| UC-05 | Gestionar cuentas de usuario | Gestionar las cuentas de los usuarios de la plataforma | Actor principal: Coordinador (No se identifica actor de apoyo) |
 
 [Indica los actores que participan. Si procede, distingue el actor principal, que busca alcanzar el objetivo del caso de uso y normalmente inicia la interacción, de los actores de apoyo, que proporcionan servicios o información al sistema.]
 
