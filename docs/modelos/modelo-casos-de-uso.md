@@ -44,7 +44,7 @@ Registra los casos que aparecen en el modelo. Asigna a cada caso un identificado
 | --- | --- | --- | --- |
 | UC-05 | Gestionar perfil | Gestionar los datos personales | Actor principal: Usuario registrado (No se identifica actor de apoyo) |
 | UC-06 | Gestionar cuentas de usuario | Gestionar las cuentas de los usuarios de la plataforma | Actor principal: Coordinador (No se identifica actor de apoyo) |
-| UC-07 | Acceder a una guía interactiva | -- | Actor principal: Usuario (No se identifica actor de apoyo) |
+| UC-07 | Acceder a una guía interactiva | El usuario podrá acceder a una guía interactiva con instrucciones paso a paso sobre las funcionalidades de la plataforma | Actor principal: Usuario (No se identifica actor de apoyo) |
 
 [Indica los actores que participan. Si procede, distingue el actor principal, que busca alcanzar el objetivo del caso de uso y normalmente inicia la interacción, de los actores de apoyo, que proporcionan servicios o información al sistema.]
 
