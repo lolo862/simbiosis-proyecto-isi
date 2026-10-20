@@ -242,10 +242,12 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 6. El sistema muestra un mensaje confirmando que el perfil ha sido actualizado.
 
 **Extensiones (flujos alternativos):** 
+
 5a. Falta un dato obligatorio o algunos de los datos no es válido:\
   1. El sistema identifica el campo y explica qué debe corregirse.\
   2. El sistema no guarda los datos y vuelve al perfil original.\
   3. El caso de uso termina sin actualizar el perfil.\
+
 6a. El sistema no guarda los cambios realizados:\
   1. El sistema avisa de que el perfil no se ha actualizado.
 
