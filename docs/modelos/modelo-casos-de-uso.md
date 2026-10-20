@@ -231,7 +231,7 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 
 **Precondiciones:** La persona ya tiene una cuenta activa y una sesión iniciada.
 
-**Inicio:** [Indica qué acción o suceso inicia el caso.]
+**Inicio:** El participante indica al sistema que quiere actualizar su perfil.
 
 **Escenario principal de éxito:** 1. El participante inicia la actualización de su perfil.\
                                   2. El participante introduce correctamente todos los cambios necesarios.\
