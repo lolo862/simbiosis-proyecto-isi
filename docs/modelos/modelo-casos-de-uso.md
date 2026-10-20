@@ -261,7 +261,7 @@ Si el sistema no puede guardar, informa del problema y no confirma la actualizac
 
 ### 6.2 Descripción detallada UC-21 — Buscar recetas
 
-**Identificador y nombre del caso de uso:** [Indica el caso.]
+**Identificador y nombre del caso de uso:**  UC-21 · Buscar recetas
 
 **Objetivo:** [Explica qué resultado pretende obtener el participante.]
 
