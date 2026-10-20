@@ -233,11 +233,16 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 
 **Inicio:** [Indica qué acción o suceso inicia el caso.]
 
-**Escenario principal de éxito:** [Describe la secuencia entre los participantes y el sistema.]
+**Escenario principal de éxito:** 1. El participante inicia la actualización de su perfil.
+                                  2. El participante introduce correctamente todos los cambios necesarios.
+                                  3. El sistema comprueba y guarda todos los cambios efectuados.
+                                  4. El sistema muestra un mensaje confirmando que el perfil ha sido actualizado.
 
 **Extensiones (flujos alternativos):** [Vincula cada variación a un paso. Indica cómo continúa o termina.]
 
-**Postcondiciones:** [Indica qué queda establecido con éxito y qué se conserva o cambia si el caso termina sin éxito o se cancela. Una consulta no requiere modificar datos para alcanzar su objetivo.]
+**Postcondiciones:** Cuando los datos son válidos, el sistema guarda conjuntamente los cambios y confirma que el perfil se ha actualizado.
+Si la persona cancela antes de guardar, se descartan los cambios de esa edición. El perfil conserva los valores anteriores.
+Si el sistema no puede guardar, informa del problema y no confirma la actualización. Conserva los valores introducidos para que la persona pueda reintentar el guardado. Los datos guardados permanecen sin cambios.
 
 **Reglas y NFR pertinentes:** [Remite a los requisitos y actas que condicionan el comportamiento.]
 
