@@ -229,7 +229,7 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 
 **Participantes:** En la simulación participan un analista y una persona usuaria registrada.
 
-**Precondiciones:** [Indica qué se da por cumplido al comenzar. Las comprobaciones que realiza el sistema pertenecen al flujo.]
+**Precondiciones:** La persona ya tiene una cuenta activa y una sesión iniciada.
 
 **Inicio:** [Indica qué acción o suceso inicia el caso.]
 
