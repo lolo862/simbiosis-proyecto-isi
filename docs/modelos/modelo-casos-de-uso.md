@@ -225,7 +225,7 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 
 **Identificador y nombre del caso de uso:** UC-05 · Actualizar perfil
 
-**Objetivo:** [Explica qué resultado pretende obtener el participante.]
+**Objetivo:** El participante quiere actualizar su propio perfil y conservar los cambios.
 
 **Participantes:** En la simulación participan un analista y una persona usuaria registrada.
 
