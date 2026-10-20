@@ -269,8 +269,8 @@ Si el sistema no puede guardar, informa del problema y no confirma la actualizac
 
 **Precondiciones:** 
 
-Las consultas descritas se realizan con una sesión iniciada. 
-Se consideran la búsqueda por ingredientes, la búsqueda por una palabra o frase y la exclusión de ingredientes.
+1. Las consultas descritas se realizan con una sesión iniciada.\
+2. Se consideran la búsqueda por ingredientes, la búsqueda por una palabra o frase y la exclusión de ingredientes.
 
 **Inicio:** El usuario quiere buscar una receta.
 
