@@ -267,7 +267,8 @@ Si el sistema no puede guardar, informa del problema y no confirma la actualizac
 
 **Participantes:** Una persona usuaria registrada.
 
-**Precondiciones:** [Indica qué se da por cumplido al comenzar. Las comprobaciones que realiza el sistema pertenecen al flujo.]
+**Precondiciones:** Las consultas descritas se realizan con una sesión iniciada. 
+Se consideran la búsqueda por ingredientes, la búsqueda por una palabra o frase y la exclusión de ingredientes.
 
 **Inicio:** [Indica qué acción o suceso inicia el caso.]
 
