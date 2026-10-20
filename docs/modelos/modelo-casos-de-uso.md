@@ -267,12 +267,18 @@ Si el sistema no puede guardar, informa del problema y no confirma la actualizac
 
 **Participantes:** Una persona usuaria registrada.
 
-**Precondiciones:** Las consultas descritas se realizan con una sesión iniciada. 
+**Precondiciones:** 
+Las consultas descritas se realizan con una sesión iniciada. 
 Se consideran la búsqueda por ingredientes, la búsqueda por una palabra o frase y la exclusión de ingredientes.
 
 **Inicio:** El usuario quiere buscar una receta.
 
-**Escenario principal de éxito:** [Describe la secuencia entre los participantes y el sistema.]
+**Escenario principal de éxito:** 
+1. El usuario introduce los ingredientes o palabras adecuadas a su búsqueda.
+2. El sistema comienza a buscar la receta que encaje con los requisitos introducidos por el usuario.
+3. El sistema muestra una imagen previa de cada receta adecuada con sus respectivos datos.
+4. El usuario selecciona un resultado.
+5. La receta seleccionada se expande y se muestra en detalle.
 
 **Extensiones (flujos alternativos):** [Vincula cada variación a un paso. Indica cómo continúa o termina.]
 
