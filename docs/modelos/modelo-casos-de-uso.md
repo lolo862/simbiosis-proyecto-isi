@@ -239,7 +239,7 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
                                   4. El sistema muestra un mensaje confirmando que el perfil ha sido actualizado.
 
 **Extensiones (flujos alternativos):** 1. Falta un dato obligatorio o algunos de los datos no es válido:\
-                                          El sistema identifica el campo y explica qué debe corregirse.
+                                          El sistema identifica el campo y explica qué debe corregirse.\
                                        2. El participante no guarda los cambios realizados:\
                                           El sistema conservará los valores que habían previamente al intento de actualización.
 
