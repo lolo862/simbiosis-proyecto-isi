@@ -227,29 +227,33 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 
 **Objetivo:** El participante quiere actualizar su propio perfil y conservar los cambios.
 
-**Participantes:** En la simulación participan un analista y una persona usuaria registrada.
+**Participantes:** Una persona usuaria registrada.
 
-**Precondiciones:** La persona ya tiene una cuenta activa y una sesión iniciada.
+**Precondiciones:** El usuario ya tiene una cuenta activa y una sesión iniciada.
 
-**Inicio:** El participante indica al sistema que quiere actualizar su perfil.
+**Inicio:** El usuario indica al sistema que quiere actualizar su perfil.
 
-**Escenario principal de éxito:** 1. El participante inicia la actualización de su perfil.\
-                                  2. El participante introduce correctamente todos los cambios necesarios.\
-                                  3. El sistema comprueba y guarda todos los cambios efectuados.\
-                                  4. El sistema muestra un mensaje confirmando que el perfil ha sido actualizado.
+**Escenario principal de éxito:** 1. El usuario solicita la actualización de su perfil.\
+                                  2. El sistema muestra el perfil actual con los datos que se pueden modificar\
+                                  3. El usuario introduce correctamente todos los cambios necesarios.\
+                                  4. El usuario pide que se guarden los datos.\
+                                  5. El sistema comprueba y guarda todos los cambios efectuados.\
+                                  6. El sistema muestra un mensaje confirmando que el perfil ha sido actualizado.
 
-**Extensiones (flujos alternativos):** 1. Falta un dato obligatorio o algunos de los datos no es válido:\
-                                          El sistema identifica el campo y explica qué debe corregirse.\
-                                       2. El participante no guarda los cambios realizados:\
-                                          El sistema conservará los valores que habían previamente al intento de actualización.
+**Extensiones (flujos alternativos):** 5a. Falta un dato obligatorio o algunos de los datos no es válido:\
+                                          1. El sistema identifica el campo y explica qué debe corregirse.\
+                                          2. El sistema no guarda los datos y vuelve al perfil original.\
+                                          3. El caso de uso termina sin actualizar el perfil.\
+                                       6a. El sistema no guarda los cambios realizados:\
+                                          1. El sistema avisa de que el perfil no se ha actualizado.
 
 **Postcondiciones:** Cuando los datos son válidos, el sistema guarda conjuntamente los cambios y confirma que el perfil se ha actualizado.
 Si la persona cancela antes de guardar, se descartan los cambios de esa edición. El perfil conserva los valores anteriores.
 Si el sistema no puede guardar, informa del problema y no confirma la actualización. Conserva los valores introducidos para que la persona pueda reintentar el guardado. Los datos guardados permanecen sin cambios.
 
-**Reglas y NFR pertinentes:** [Remite a los requisitos y actas que condicionan el comportamiento.]
+**Reglas y NFR pertinentes:** NFR-010
 
-**Preguntas abiertas:** [Registra solo las cuestiones necesarias que las fuentes no resuelvan. Si no hay preguntas para el alcance descrito, indícalo.]
+**Preguntas abiertas:** No hay preguntas.
 
 ### 6.2 Descripción detallada UC-21 — Buscar recetas
 
