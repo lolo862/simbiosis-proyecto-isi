@@ -268,6 +268,7 @@ Si el sistema no puede guardar, informa del problema y no confirma la actualizac
 **Participantes:** Una persona usuaria registrada.
 
 **Precondiciones:** 
+
 Las consultas descritas se realizan con una sesión iniciada. 
 Se consideran la búsqueda por ingredientes, la búsqueda por una palabra o frase y la exclusión de ingredientes.
 
@@ -282,7 +283,10 @@ Se consideran la búsqueda por ingredientes, la búsqueda por una palabra o fras
 
 **Extensiones (flujos alternativos):** [Vincula cada variación a un paso. Indica cómo continúa o termina.]
 
-**Postcondiciones:** [Indica qué queda establecido con éxito y qué se conserva o cambia si el caso termina sin éxito o se cancela. Una consulta no requiere modificar datos para alcanzar su objetivo.]
+**Postcondiciones:** 
+Si ninguna receta cumple los criterios, el sistema indica que no hay resultados para esa búsqueda. Conserva los criterios para que la persona pueda modificarlos.
+Si el sistema no puede completar la búsqueda o cargar el detalle, informa del problema. No presenta el fallo como una búsqueda sin resultados.
+Se conservan los criterios de la última búsqueda. La persona puede reintentar la consulta o terminarla.
 
 **Reglas y NFR pertinentes:** [Remite a los requisitos y actas que condicionan el comportamiento.]
 
