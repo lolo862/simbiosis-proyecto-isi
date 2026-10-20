@@ -263,9 +263,9 @@ Si el sistema no puede guardar, informa del problema y no confirma la actualizac
 
 **Identificador y nombre del caso de uso:**  UC-21 · Buscar recetas
 
-**Objetivo:** [Explica qué resultado pretende obtener el participante.]
+**Objetivo:** El usuario quiere localizar una receta que cumpla sus criterios y consultar su detalle.
 
-**Participantes:** [Indica el actor principal y los actores de apoyo, si los hay.]
+**Participantes:** Una persona usuaria registrada.
 
 **Precondiciones:** [Indica qué se da por cumplido al comenzar. Las comprobaciones que realiza el sistema pertenecen al flujo.]
 
