@@ -236,7 +236,7 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 **Escenario principal de éxito:** 1. El participante inicia la actualización de su perfil.\
                                   2. El participante introduce correctamente todos los cambios necesarios.\
                                   3. El sistema comprueba y guarda todos los cambios efectuados.\
-                                  4. El sistema muestra un mensaje confirmando que el perfil ha sido actualizado.\
+                                  4. El sistema muestra un mensaje confirmando que el perfil ha sido actualizado.
 
 **Extensiones (flujos alternativos):** [Vincula cada variación a un paso. Indica cómo continúa o termina.]
 
