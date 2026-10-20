@@ -233,25 +233,27 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 
 **Inicio:** El usuario indica al sistema que quiere actualizar su perfil.
 
-**Escenario principal de éxito:** 1. El usuario solicita la actualización de su perfil.\
-                                  2. El sistema muestra el perfil actual con los datos que se pueden modificar\
-                                  3. El usuario introduce correctamente todos los cambios necesarios.\
-                                  4. El usuario pide que se guarden los datos.\
-                                  5. El sistema comprueba y guarda todos los cambios efectuados.\
-                                  6. El sistema muestra un mensaje confirmando que el perfil ha sido actualizado.
+**Escenario principal de éxito:** 
+1. El usuario solicita la actualización de su perfil.\
+2. El sistema muestra el perfil actual con los datos que se pueden modificar\
+3. El usuario introduce correctamente todos los cambios necesarios.\
+4. El usuario pide que se guarden los datos.\
+5. El sistema comprueba y guarda todos los cambios efectuados.\
+6. El sistema muestra un mensaje confirmando que el perfil ha sido actualizado.
 
-**Extensiones (flujos alternativos):** 5a. Falta un dato obligatorio o algunos de los datos no es válido:\
-                                          1. El sistema identifica el campo y explica qué debe corregirse.\
-                                          2. El sistema no guarda los datos y vuelve al perfil original.\
-                                          3. El caso de uso termina sin actualizar el perfil.\
-                                       6a. El sistema no guarda los cambios realizados:\
-                                          1. El sistema avisa de que el perfil no se ha actualizado.
+**Extensiones (flujos alternativos):** 
+5a. Falta un dato obligatorio o algunos de los datos no es válido:\
+  1. El sistema identifica el campo y explica qué debe corregirse.\
+  2. El sistema no guarda los datos y vuelve al perfil original.\
+  3. El caso de uso termina sin actualizar el perfil.\
+6a. El sistema no guarda los cambios realizados:\
+  1. El sistema avisa de que el perfil no se ha actualizado.
 
 **Postcondiciones:** Cuando los datos son válidos, el sistema guarda conjuntamente los cambios y confirma que el perfil se ha actualizado.
 Si la persona cancela antes de guardar, se descartan los cambios de esa edición. El perfil conserva los valores anteriores.
 Si el sistema no puede guardar, informa del problema y no confirma la actualización. Conserva los valores introducidos para que la persona pueda reintentar el guardado. Los datos guardados permanecen sin cambios.
 
-**Reglas y NFR pertinentes:** NFR-010
+**Reglas y NFR pertinentes:** NFR-010: Todas las pantallas y funciones de la primera versión cumplirán el estándar WCAG 2.2, nivel AA.
 
 **Preguntas abiertas:** No hay preguntas.
 
