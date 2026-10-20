@@ -275,20 +275,45 @@ Si el sistema no puede guardar, informa del problema y no confirma la actualizac
 **Inicio:** El usuario quiere buscar una receta.
 
 **Escenario principal de éxito:** 
-1. El usuario introduce los ingredientes o palabras adecuadas a su búsqueda.
-2. El sistema comienza a buscar la receta que encaje con los requisitos introducidos por el usuario.
-3. El sistema muestra una imagen previa de cada receta adecuada con sus respectivos datos.
-4. El usuario selecciona un resultado.
-5. La receta seleccionada se expande y se muestra en detalle.
+1. El usuario solicita buscar recetas.
+2. El usuario introduce los ingredientes adecuados a su búsqueda.
+3. El sistema comprueba que los criterios pueden aplicarse.
+4. El sistema comienza a buscar la receta que encaje con los requisitos introducidos por el usuario.
+5. El sistema muestra una imagen previa de cada receta adecuada con sus respectivos datos.
+6. El usuario selecciona un resultado.
+7. La receta seleccionada se expande y se muestra en detalle.
 
-**Extensiones (flujos alternativos):** [Vincula cada variación a un paso. Indica cómo continúa o termina.]
+**Extensiones (flujos alternativos):** 
 
+3a. El usuario busca mediante palabra o frase:
+  El usuario introduce una palabra o frase.
+  El sistema valida si cumple los criterios.
+  Continúa con el paso 4.
+3b. El usuario excluye ingredientes:
+  El usuario introduce ingredientes para excluir.
+  El sistema valida si cumple los criterios.
+  Continúa con el paso 4.
+3c. El usuario combina criterios: 
+  El usuario indica varios criterios de entre los contemplados.
+  El sistema comprueba la validez de los datos introducidos.
+  Continúa en el paso 4.
+6a. La búsqueda no obtiene resultados:
+  El sistema informa que no hay resultados.
+  El sistema conserva los criterios que no obtuvieron respuesta y sugiere opciones.
+  El usuario elige una.
+  El sistema ejecuta una nueva búsqueda.
+  
 **Postcondiciones:** 
 Si ninguna receta cumple los criterios, el sistema indica que no hay resultados para esa búsqueda. Conserva los criterios para que la persona pueda modificarlos.
 Si el sistema no puede completar la búsqueda o cargar el detalle, informa del problema. No presenta el fallo como una búsqueda sin resultados.
 Se conservan los criterios de la última búsqueda. La persona puede reintentar la consulta o terminarla.
 
 **Reglas y NFR pertinentes:** [Remite a los requisitos y actas que condicionan el comportamiento.]
+
+La persona selecciona los ingredientes que desea encontrar. Una receta debe contener todos los ingredientes seleccionados para aparecer como resultado.
+La persona también puede seleccionar ingredientes que desea excluir. Ninguna receta de los resultados puede contener alguno de ellos.
+La selección se hace a partir de los nombres de ingredientes disponibles en el sistema. La persona puede añadir o retirar selecciones antes de buscar.
+La búsqueda por texto comprueba si la palabra o frase aparece en el título o en la descripción breve. Una frase debe aparecer seguida y en el mismo orden. No se distinguen mayúsculas ni tildes.
 
 **Preguntas abiertas:** [Registra solo las cuestiones necesarias que las fuentes no resuelvan. Si no hay preguntas para el alcance descrito, indícalo.]
 
