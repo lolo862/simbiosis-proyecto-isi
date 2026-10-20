@@ -238,7 +238,10 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
                                   3. El sistema comprueba y guarda todos los cambios efectuados.\
                                   4. El sistema muestra un mensaje confirmando que el perfil ha sido actualizado.
 
-**Extensiones (flujos alternativos):** [Vincula cada variación a un paso. Indica cómo continúa o termina.]
+**Extensiones (flujos alternativos):** 1. Falta un dato obligatorio o algunos de los datos no es válido:\
+                                          El sistema identifica el campo y explica qué debe corregirse.
+                                       2. El participante no guarda los cambios realizados:\
+                                          El sistema conservará los valores que habían previamente al intento de actualización.
 
 **Postcondiciones:** Cuando los datos son válidos, el sistema guarda conjuntamente los cambios y confirma que el perfil se ha actualizado.
 Si la persona cancela antes de guardar, se descartan los cambios de esa edición. El perfil conserva los valores anteriores.
